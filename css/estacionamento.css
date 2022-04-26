@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90vw;
+    height: 100%;
+    margin: 2rem auto;
+    background: linear-gradient(-45deg, #fa0303, #f69090, #2332d5, #2394d5) no-repeat;
+}
+
+header {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #eee;
+    padding: 0.2rem;
+    align-items: center;
+}
+
+input, button {
+    width: 98%;
+    padding: 0.6rem 0.4rem;
+    margin: 0.4rem;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    display: block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.success {
+    background-color: rgb(54, 80, 231);
+    color: rgb(255, 255, 255);
+}
+
+.delete {
+    background-color: rgb(231, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+
+table {
+    background-color: #eee;
+    margin-top: .9rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 5px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+footer#rodape {
+    clear: both;
+    text-align: center;margin-top: 3%;
+}
+
+  footer#rodape p {
+    text-align: center;
+    color: black;
+}
+
+  footer#rodape a {
+    color: black;
+  }
